@@ -5,6 +5,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
 }
 
 :root{
@@ -16,7 +17,7 @@
     --extra-light: #AFEEEE;
 }
 
-/*/Estilização da seção inicial*/
+/*/Estilização do topo*/
 
 a{
     text-decoration: none;
@@ -33,6 +34,7 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid var(--extra-light);
 }
 
 .logo{
@@ -63,6 +65,8 @@ a{
     color: var(--cor01);
 }
 
+/*Estilizaçao da seção inicial*/
+
 main{
     background-color: var(--cor01);
 }
@@ -76,6 +80,8 @@ main{
     display: flex;
     gap: 100px;
     align-items: center;
+    transition: 0.4s;
+    transform: translate(5px);
 }
 
 .content{
@@ -113,15 +119,19 @@ main{
 }
 
 .btn{
-    width: 140px;
+    width: 210px;
+    height: 45px;
+    display: flex;
+    gap: 2px;
 }
 
 button{
-    width: 100%;
+    width: 122px;
+    height: 40px;
     font-size: 12px;
     font-weight: 600;
     letter-spacing: 2px;
-    padding: 5px;
+    padding: 4px;
     outline: none;
     border: 2px solid var(--cor02);
     border-radius: 18px;
@@ -129,15 +139,87 @@ button{
     cursor: pointer;
 }
 
+.logo_redes_sociais{
+   width: 40px;
+   height: 40px;
+   transition: 0.4s;
+}
+
 button:hover{
     background-color: var(--cor02);
+}
+
+.logo_redes_sociais:hover{
+    transform: scale(1.05);
 }
 
 .image{
     width: 30%;
 }
 
-img{
+@keyframes animacao {
+    from {
+        top: 1px
+    }
+    to{
+        top: 20px
+    }
+}
+
+.img_efeito{
     width: 100%;
     border-radius: 50%;
+    position: relative;
+    animation: animacao 2.1s infinite alternate-reverse linear;
+}
+
+/*Estilização da seção sobre mim*/
+
+.secao_sobre{
+    width: 100%;
+    padding: 100px 0;
+    background-color: var(--cor02);
+    transition: 0.3s;
+    display: flex;
+}
+
+.container_divisao{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 40px;
+}
+
+figure{
+    width: 230px;
+    display: flex;
+    align-items: center;
+}
+
+.container_divisao figure img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    animation: animacao 2.1s infinite alternate-reverse linear;
+}
+
+.container_sobre{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container_sobre h2{
+    font-size: 38px;
+    font-weight: 400;
+    color: var(--extra-light);
+}
+
+.box_content{
+    border-radius: 8px;
+    background-color: var(--cor03);
+    color: var(--text-dark);
+    padding: 60px;
+    line-height: 24px;
+    text-align: justify;
 }
