@@ -223,3 +223,80 @@ figure{
     line-height: 24px;
     text-align: justify;
 }
+
+/*Estilização da seção de projetos*/
+
+#projetos{
+    width: 100%;
+    padding: 100px 0;
+}
+
+.container_projetos{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_projetos h2{
+    font-size: 38px;
+    font-weight: 400;
+    color: var(--cor02);
+    text-align: center;
+    padding-bottom: 70px
+}
+
+.btn_ampliar{
+    margin-top: 30px;
+}
+
+.box_projetos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 29px;
+    width: 100%;
+    justify-content: center;
+}
+
+.projeto{
+    background-color: var(--cor02);
+    border: 1px solid var(--extra-light);
+    height: 195px;
+    width: 310px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    overflow: hidden;
+    transition: ease-in-out 0.3s;
+}
+
+.projeto:hover{
+    letter-spacing: 3px;
+}
+
+.projeto .mensagem{
+    background-color: var(--cor01);
+    width: 1000px;
+    padding: 8px;
+    transform: rotate(-50deg);
+}
+
+.projeto div p{
+    font-size: 20px;
+    color: var(--cor02);
+    font-style: italic;
+    text-align: center;
+}
+
+.esconder{
+    opacity: 0;
+    display: none;
+    transition: 1000ms;
+}
+
+
+
