@@ -63,6 +63,7 @@ a{
 
 .nav_content a:hover{
     color: var(--cor01);
+    transition: 0.3s;
 }
 
 /*Estilizaçao da seção inicial*/
