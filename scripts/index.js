@@ -1,6 +1,8 @@
 const botaoVermais = document.querySelector('.btn_ampliar');
 const habilidade = document.querySelectorAll('.esconder');
 
+
+//BOTÃO SEÇÃO PROJETOS
 function clickVer (e) {
 
     let todosVisiveis = true;
