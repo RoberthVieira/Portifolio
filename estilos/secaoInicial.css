@@ -1,8 +1,135 @@
 :root{
     --cor01: #53a4bf;
-    --cor02: #316273;
+    --cor02: #2d5160;
     --cor03: #fff;
     --text-dark: #1f2937;
     --text-light: #6b7280;
     --extra-light: #AFEEEE;
+}
+
+#inicio{
+    background-color: var(--cor01);
+    height: 100vh;
+}
+
+.container_secao_inicial{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    background-color: var(--cor01);
+}
+
+.conteudo_secao_inicial{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo_secao_inicial .subtitulo{
+    letter-spacing: 2px;
+    color: var(--cor02);
+    font-weight: 600;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+.conteudo_secao_inicial h1{
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    color: var(--text-dark);
+    margin-bottom: 16px;
+}
+
+.conteudo_secao_inicial h1 span{
+    font-weight: 600;
+    color: var(--cor03);
+}
+
+.descricao{
+    line-height: 24px;
+    color: var(--text-dark);
+    margin-bottom: 32px;
+}
+
+.clicaveis{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 400px;
+    height: 50px;
+}
+
+.clicaveis a{
+    display: flex;
+}
+
+.btn_download{
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    color: var(--cor01);
+    
+}
+
+.btn_download:hover{
+    background-color: var(--cor02);
+}
+
+.icone_redes{
+    height: 40px;
+}
+
+.icone_redes:hover{
+    height: 41px;
+    transition: 0.3s;
+}
+
+figure{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+figure img{
+    width: 350px;
+}
+
+@keyframes moveImg {
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(-9px);
+    }
+}
+
+.img_animada{
+    position: relative;
+    animation: moveImg 0.8s infinite alternate;
+}
+
+
+@media (max-width: 768px){
+    
+    .conteudo_secao_inicial{
+        width: 100%;
+        justify-content: center;
+        padding: 0 20px;
+    }
+    
+    figure{
+        display: none;
+    }
+}
+
+@media (max-width: 500px){
+    .conteudo_secao_inicial{
+        padding: 0 30px;
+    }
 }

@@ -2,7 +2,7 @@
 
 :root{
     --cor01: #53a4bf;
-    --cor02: #316273;
+    --cor02: #2d5160;
     --cor03: #fff;
     --text-dark: #1f2937;
     --text-light: #6b7280;
@@ -18,6 +18,12 @@
     transition: 0.3s;
 }
 
+.difinir_largura{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .degrade{
-    background-image: linear-gradient(to bottom, var(--cor01), #1f404b);
+    background-image: linear-gradient(to bottom, var(--cor01), var(--cor02));
 }

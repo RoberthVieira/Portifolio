@@ -1,6 +1,6 @@
 :root{
     --cor01: #53a4bf;
-    --cor02: #316273;
+    --cor02: #2d5160;
     --cor03: #fff;
     --text-dark: #1f2937;
     --text-light: #6b7280;
@@ -8,13 +8,14 @@
 }
 
 .topo{
-    background-color: rgba(49, 98, 115, 0.8);
+    background-color: rgba(45, 81, 96, 0.8);
     width: 100%;
     position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 70px;
+    border-bottom: 1px solid var(--extra-light);
 }
 
 .topo div{
