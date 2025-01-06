@@ -114,6 +114,11 @@ figure img{
     animation: moveImg 0.8s infinite alternate;
 }
 
+@media (max-width: 1200px){
+    .conteudo_secao_inicial{
+        margin-left: 20px;
+    }
+}
 
 @media (max-width: 768px){
     
