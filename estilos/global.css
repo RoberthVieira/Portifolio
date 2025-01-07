@@ -27,3 +27,23 @@
 .degrade{
     background-image: linear-gradient(to bottom, var(--cor01), var(--cor02));
 }
+
+h2{
+    font-weight: 400;
+    font-size: 36px;
+    color: var(--extra-light);
+}
+
+footer{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: #1f2937;
+    color: var(--cor03);
+    font-size: 13px;
+}
+
+footer span{
+    color: var(--cor01);
+    font-weight: bold;
+}

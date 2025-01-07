@@ -16,6 +16,7 @@
     align-items: center;
     padding: 10px 70px;
     border-bottom: 1px solid var(--extra-light);
+    z-index: 1;
 }
 
 .topo div{

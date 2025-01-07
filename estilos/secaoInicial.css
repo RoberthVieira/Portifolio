@@ -10,6 +10,8 @@
 #inicio{
     background-color: var(--cor01);
     height: 100vh;
+    display: flex;
+    justify-content: center;
 }
 
 .container_secao_inicial{
@@ -114,6 +116,46 @@ figure img{
     animation: moveImg 0.8s infinite alternate;
 }
 
+.scroll{
+    position: absolute;
+    bottom: 16px;
+    font-weight: bold;
+    padding: 16px;
+  }
+
+  .scroll a{
+    text-decoration: none;
+    display: flex;
+    gap: 4px;
+  }
+
+  .scroll a p{
+    color: var(--cor02);
+  }
+
+  .scroll img {
+    animation: scroll-down 3s infinite forwards;
+    width: 20px;
+    height: 15px;
+  }
+  
+  @keyframes scroll-down {
+    0% {
+      opacity: 0;
+      transform: translate3d(0, -15px, 0);
+    }
+    30% {
+      opacity: 0;
+    }
+    60% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      transform: translate3d(0, 10px, 0);
+    }
+  }
+
 @media (max-width: 1200px){
     .conteudo_secao_inicial{
         margin-left: 20px;
@@ -121,9 +163,10 @@ figure img{
 }
 
 @media (max-width: 768px){
-    
+
     .conteudo_secao_inicial{
         width: 100%;
+        height: 30vh;
         justify-content: center;
         padding: 0 20px;
     }
