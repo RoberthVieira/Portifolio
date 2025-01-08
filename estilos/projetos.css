@@ -7,3 +7,65 @@
     --extra-light: #AFEEEE;
 }
 
+#projetos{
+    padding: 70px 0 100px 0;
+}
+
+.container_secao_projetos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.conteudo_secao_projetos{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.card_projeto{
+    width: 400px;
+    height: 350px;
+    background-color: #53a4bf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: ease-in-out 0.3s;
+    border-radius: 20px;
+}
+
+.card_projeto div{
+    background-color: var(--cor02);
+    width: 2000px;
+    text-align: center;
+    padding: 5% 0;
+}
+
+.card_projeto div p{
+    letter-spacing: 5px;
+    font-weight: bold;
+    color: var(--cor03);
+}
+
+.btn_ampliar{
+    width: 120px;
+    height: 40px;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    color: var(--cor01);
+}
+
+.btn_ampliar:hover{
+    background-color: var(--cor02);
+}
+
+.esconder{
+    display: none;
+}

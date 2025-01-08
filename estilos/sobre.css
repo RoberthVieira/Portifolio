@@ -28,7 +28,7 @@ figure .minha_img{
     background-color: var(--cor03);
     height: 100%;
     padding: 20px 12px;
-    border-radius: 0 10px 10px 0;
+    border-radius: 0 20px 20px 0;
     text-align: justify;
     color: var(--cor02);
     display: flex;
