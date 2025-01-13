@@ -32,6 +32,7 @@ h2{
     font-weight: 400;
     font-size: 36px;
     color: var(--extra-light);
+    border-bottom: 2px solid var(--cor02);
 }
 
 footer{
