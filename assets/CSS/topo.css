@@ -95,6 +95,17 @@
         display: block;
     }
 
+    .menu_hamburguer:hover{
+        width: 29px;
+        height: 29px;
+        transition: all 0.2s;
+    }
+
+    .menu_hamburguer img:hover{
+        width: 19px;
+        height: 19px;
+    }
+
     .box_menu{
         display: none;
         width: 140px;
@@ -115,6 +126,10 @@
     .box_menu nav a{
         width: 100%;
         justify-content: center;
+    }
+
+    .box_menu nav a:hover{
+        border-radius: 8px;
     }
 
     .active{
