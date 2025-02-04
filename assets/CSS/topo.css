@@ -85,6 +85,12 @@
 
 
 @media(max-width: 800px) {
+
+    .box_logo h1, .box_logo span{
+        font-size: 26px;
+        word-spacing: 1px;
+    }
+
     .menu_hamburguer{
         display: block;
     }
@@ -120,6 +126,11 @@
 @media (max-width: 500px){
     .box_logo{
         width: 80%;
+    }
+
+    .box_logo h1, .box_logo span{
+        font-size: 20px;
+        word-spacing: 1px;
     }
 }
 
