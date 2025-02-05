@@ -6,6 +6,7 @@
     padding: 0 40px 0 10px;
     background-color: #222222;
     color: #fff;
+    border-bottom: 1px solid #0044CC;
     display: flex;
     align-items: center;
     justify-content: space-between;
