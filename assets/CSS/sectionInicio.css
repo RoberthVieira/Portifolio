@@ -37,6 +37,16 @@
 .descricao{
     font-size: 18px;
     margin-bottom: 30px;
+    height: 40px;
+}
+
+.cursor::after{
+    content: '|';
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+    50% {opacity: 0;}
 }
 
 .box_btn_redes_sociais{
