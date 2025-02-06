@@ -1,6 +1,7 @@
 .box_inicio{
     width: 100%;
-    height: 80vh;
+    margin: 0 auto;
+    height: 100vh;
     display: flex;
     background-color: #fff;
 }
@@ -11,6 +12,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    border-radius: 0 0 12px 0;
 }
 
 .box_apresentacao{
@@ -29,7 +31,7 @@
 }
 
 .box_apresentacao h1{
-    font-size: 46px;
+    font-size: 44px;
     color: #0044CC;
     margin-bottom: 5px;
 }
