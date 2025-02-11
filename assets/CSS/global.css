@@ -5,8 +5,28 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+:root{
+    --cor1: #111;
+    --cor2: #CCCCCC;
+    --cor3: #B3B3B3;
+    --cor4: #00CED1;
 }
 
 body{
     background-color: #111;
+}
+
+@keyframes barra {
+    0% {opacity: 1;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
+} 
+
+.cursor::after{
+    content: '|';
+    display: inline-block;
+    animation: barra 0.8s infinite;
 }
