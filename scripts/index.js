@@ -11,3 +11,6 @@ function escrever () {
 };
 
 escrever();
+
+//carregamento de imagem
+document.querySelector('#my-img').src = "/assets/IMG/minhaImagem.png";
