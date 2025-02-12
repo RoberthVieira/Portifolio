@@ -19,6 +19,7 @@ body{
     background-color: #111;
 }
 
+
 @keyframes barra {
     0% {opacity: 1;}
     50% {opacity: 0;}
@@ -29,4 +30,24 @@ body{
     content: '|';
     display: inline-block;
     animation: barra 0.8s infinite;
+}
+
+.line{
+    max-width: 320px;
+    height: 1px;
+    background-color: var(--cor3);
+    margin: 40px auto;
+}
+
+@media(min-width: 768px){
+    .line{
+        max-width: 768px;
+        margin: 120px auto;
+    }
+}
+
+@media(min-width: 1200px){
+    .line{
+        max-width: 1200px;
+    }
 }

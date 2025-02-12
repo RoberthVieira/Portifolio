@@ -42,15 +42,95 @@ figure img{
 }
 
 .apre_texto a{
-    height: 30px;
-    font-size: 15px;
-    color: #CCCCCC;
+    width: 100%;
+    height: auto;
     text-decoration: none;
+    text-align: center;
+}
+
+.apre_texto a button{
+    all: unset;
     border-bottom: 2px solid #00CED1;
     transition: transform 0.3s ease;
 }
 
-.apre_texto a:hover{
+.apre_texto a button:hover{
     transform: translateY(-2px);
 }
 
+@media(min-width: 768px){
+    .container_apresentacao{
+        max-width: 768px;
+        margin: 0 auto;
+        align-items: center;
+        flex-direction: row-reverse;
+        position: relative;
+    }
+
+    figure{
+        width: 60%;
+    }
+
+    .apre_texto{
+        width: 40%;
+        z-index: 1;
+        width: 400px;
+        gap: 55px;
+        position: absolute;
+        left: 3%;
+        top: 25%;
+    }
+
+    .apre_texto div .titulo{
+        font-size: 46px;
+    }
+
+    .digitando{
+        font-size: 14px;
+        height: auto;
+    }
+}
+
+@media(min-width: 1200px){
+    .container_apresentacao{
+        max-width: 1200px;
+        margin: 0 auto;
+        padding-top: 50px;
+        height: 67vh;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    figure{
+        width: 50%;
+    }
+
+    figure img{
+        width: 90%;
+    }
+
+    .apre_texto{
+        position: static;
+        width: 50%;
+    }
+
+    .apre_texto div{
+        width: 100%;
+    }
+
+    .apre_texto div .titulo{
+        text-align: left;
+        font-size: 58px;
+    }
+
+    .digitando{
+        text-align: left;
+        font-size: 20px;
+        height: 100px;
+    }
+
+    .apre_texto a{
+        font-size: 20px; 
+        text-align: left;
+    }
+}

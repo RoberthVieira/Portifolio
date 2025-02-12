@@ -1,3 +1,4 @@
+//Efeito digitação
 const texto = "Estudante de Análise e Desenvolvimento de Sistemas e estou em busca da minha primeira experiência como desenvolvedor Front-end.";
 let i = 0;
 const digitando = document.querySelector('.digitando');
@@ -11,6 +12,3 @@ function escrever () {
 };
 
 escrever();
-
-//carregamento de imagem
-document.querySelector('#my-img').src = "/assets/IMG/minhaImagem.png";
