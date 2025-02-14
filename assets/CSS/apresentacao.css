@@ -83,11 +83,17 @@ figure img{
 
     .apre_texto div .titulo{
         font-size: 46px;
+        text-align: left;
     }
 
     .digitando{
         font-size: 14px;
         height: auto;
+        text-align: left;
+    }
+
+    .apre_texto a{
+        text-align: left;
     }
 }
 

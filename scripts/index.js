@@ -12,3 +12,19 @@ function escrever () {
 };
 
 escrever();
+
+
+//Mouseover e mouseout
+const imgHtml = document.querySelector('.img_html');
+const imgCss= document.querySelector('.img_css');
+const imgJs = document.querySelector('.img_js');
+const imgReact = document.querySelector('.img_react');
+const imgGit = document.querySelector('.img_git');
+const paragrafoDescricao = document.querySelector('.descricao_tecnologias');
+
+imgHtml.addEventListener("mouseover", () => {
+    paragrafoDescricao.innerHTML = "HTML (HyperText Markup Language) é a linguagem usada para estruturar páginas web com elementos como textos, imagens, links, listas e tabelas. Ele utiliza tags para organizar o conteúdo de forma hierárquica."
+})
+imgHtml.addEventListener('mouseout', () => {
+    paragrafoDescricao.innerHTML= "Passe o mouse sobre uma tecnologia para saber mais sobre ela.";
+})

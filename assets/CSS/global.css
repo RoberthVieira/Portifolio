@@ -33,21 +33,21 @@ body{
 }
 
 .line{
-    max-width: 320px;
-    height: 1px;
+    max-width: 308px;
+    height: 0.5px;
     background-color: var(--cor3);
     margin: 40px auto;
 }
 
 @media(min-width: 768px){
     .line{
-        max-width: 768px;
-        margin: 120px auto;
+        max-width: 756px;
+        margin: 80px auto;
     }
 }
 
 @media(min-width: 1200px){
     .line{
-        max-width: 1200px;
+        max-width: 1188px;
     }
 }
