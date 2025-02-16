@@ -78,3 +78,10 @@
         font-size: 14px;
     }
 }
+
+@media (min-width: 1200px){
+    .container_tecnologias{
+        flex-direction: row;
+        max-width: 1200px;
+    }
+}
