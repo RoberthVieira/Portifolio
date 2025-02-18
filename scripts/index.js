@@ -53,6 +53,6 @@ tecnologias.forEach((tecnologia) => {
     });
 
     elemento.addEventListener("mouseout", () => {
-        paragrafoDescricao.innerHTML = "Passe o mouse sobre uma tecnologia para saber mais sobre ela.";
+        paragrafoDescricao.innerHTML = "Aqui estão algumas das tecnologias e linguagens com as quais tenho conhecimento. Passe o mouse sobre uma delas para mais detalhes.";
     });
 });
