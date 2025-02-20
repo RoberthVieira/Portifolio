@@ -1,0 +1,39 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar .navbar_content{
+    padding: 3rem 4rem 1rem;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.navbar .navbar_content a img{
+    width: 70px;
+}
+
+.navbar .navbar_content .nav_links li{
+    display: inline-block;
+}
+
+.navbar .navbar_content .nav_links li:not(:last-of-type){
+    margin-right: 2rem;
+}
+
+.navbar .navbar_content .nav_links a {
+    padding: 1rem;
+    display: inline-block;
+}
+
+.navbar .navbar_content .nav_links a:hover{
+    color: var(--tertiary-color);
+}
+
+
+
+
