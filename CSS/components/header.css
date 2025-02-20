@@ -1,0 +1,28 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+    scroll-margin-top: 20rem;
+}
+
+header .heade_left{
+    max-width: 62rem;
+    flex: 1;
+}
+
+header .heade_left p{
+    max-width: 50rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+header .header_right .header_img{
+    position: relative;
+    line-height: 0;
+}
+
+header .header_right .header_img .img_roberth{
+    min-width: 25rem;
+    max-width: 100%;
+}

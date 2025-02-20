@@ -30,20 +30,20 @@
   h1 {
     font-size: 6.4rem;
     font-weight: 700;
-    color: var(--primary-color);
+    color: var(--white);
   }
   
   .secondary-title {
     font-size: 4rem;
     font-weight: 700;
-    color: var(--primary-color);
+    color: var(--white);
   }
   
   .tertiary-title {
     font-size: 3.2rem;
     font-weight: 500;
     line-height: 4.5rem;
-    color: var(--secondary-color);
+    color: var(--white);
   }
   
   p,
@@ -68,8 +68,8 @@
   }
   
   .btn.btn-primary {
-    background-color: var(--dark-secondary-color);
-    color: var(--white);
+    background-color: var(--white);
+    color: var(--black);
     font-weight: 400;
     font-size: 1.4rem;
   }
