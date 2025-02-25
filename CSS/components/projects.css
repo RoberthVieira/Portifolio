@@ -1,0 +1,46 @@
+.projects{
+    margin-bottom: 16rem;
+    scroll-margin-top: 15rem;
+}
+
+.projects .projects_content{
+    max-width: 56rem;
+    text-align: center;
+    margin: 0 auto 6rem;
+}
+
+.projects ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+}
+
+.projects ul li .projects_right-list{
+    flex-direction: row-reverse;
+}
+
+.projects ul li:not(:last-of-type){
+    margin-bottom: 12rem;
+}
+
+.projects ul li .image img{
+    width: 100%;
+    height: auto;
+    min-width: 40rem;
+    max-width: 47rem;
+    border-radius: 2px;
+}
+
+.projects ul li .projects_info{
+    max-width: 57rem;
+}
+
+.projects ul li .projects_info p{
+    margin: 1rem 0 4rem;
+}
+
+.projects ul li .projects_info a{
+    font-weight: 500;
+    text-decoration: underline;
+}
